@@ -4,8 +4,8 @@ Hanna Ramanouskaya
 ## *Contacts:*
 - **Location:** Brest, Belarus
 - **Phone:** +375(25) 633 91 84
-- **E-mail:** annromanouskaya@gmail.com
-- **Telegram:** https://t.me/Ann_Romanovskaya
+- **E-mail:** [annromanouskaya@gmail.com](annromanouskaya@gmail.com)
+- **Telegram:** [Ann_Romanovskaya](https://t.me/Ann_Romanovskaya)
 - **GitHub:** [Is-tukan](https://github.com/Is-tukan "Github account")
 - **LinkedIn:** [Anna Romanouskaya](https://www.linkedin.com/in/anna-romanouskaya-a55460320/)
 - **Discord:** nickname: Ann (@Is-tukan); annistukan_54472; 
