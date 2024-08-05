@@ -45,5 +45,5 @@ In progress on [GitHub](https://github.com/Is-tukan?tab=repositories "GitHub Rep
 5. [JavaScript / Front-end Course. Pre-school](https://rs.school/courses/javascript-preschool-ru) in progress...
 
 ## *English level:*
-[Официальный сертификат EF SET 59/100 (B2 Upper Intermediate)](https://cert.efset.org/MCEUFh)\
+![](D:/Java Script/rsschool-cv/1631348364654.jfif "English level sertificate") [Официальный сертификат EF SET 59/100 (B2 Upper Intermediate)](https://cert.efset.org/MCEUFh)\
 **Other languages:** Russian (native language), Belarusian
