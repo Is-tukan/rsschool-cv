@@ -4,7 +4,7 @@ Hanna Ramanouskaya
 ## *Contacts:*
 - **Location:** Brest, Belarus
 - **Phone:** +375(25) 633 91 84
-- **E-mail:** [annromanouskaya@gmail.com](annromanouskaya@gmail.com)
+- **E-mail:** annromanouskaya@gmail.com
 - **Telegram:** [Ann_Romanovskaya](https://t.me/Ann_Romanovskaya)
 - **GitHub:** [Is-tukan](https://github.com/Is-tukan "Github account")
 - **LinkedIn:** [Anna Romanouskaya](https://www.linkedin.com/in/anna-romanouskaya-a55460320/)
@@ -47,6 +47,6 @@ In progress on [GitHub](https://github.com/Is-tukan?tab=repositories "GitHub Rep
 5. [JavaScript / Front-end Course. Pre-school](https://rs.school/courses/javascript-preschool-ru) in progress...
 
 ## *English level:*
-![](https://raw.githubusercontent.com/Is-tukan/rsschool-cv/gh-pages/1631348364654.jfif "English level sertificate") [Официальный сертификат EF SET 59/100 (B2 Upper Intermediate)](https://cert.efset.org/MCEUFh)
+![](https://raw.githubusercontent.com/Is-tukan/rsschool-cv/gh-pages/1631348364654.jfif "English level sertificate") [Official certificate EF SET 59/100 (B2 Upper Intermediate)](https://cert.efset.org/MCEUFh)
 
 **Other languages:** Russian (native language), Belarusian
