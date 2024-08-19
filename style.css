@@ -4,6 +4,7 @@ html, body {
     margin: 0;
     padding: 0;
     }
+
 .nav {
     display: inline;
     float: left;
@@ -11,4 +12,12 @@ html, body {
     padding: 10px;
 
     background-color: #7ac17e
+}
+
+.p_footer {
+    float: left;
+}
+
+.logo_rss {
+    float: right;
 }
