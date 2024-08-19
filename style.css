@@ -7,18 +7,31 @@ html, body {
 
 .nav {
     display: inline-block;
-    margin: 10px;
-    padding: 10px;
+    width: 100%;
 
-    background-color: #7ac17e
+    color: #ffffff;
+    text-decoration: none;
+
+    background-color: #90a492;
+}
+
+.footer {
+    display: inline-block;
+    vertical-align: bottom;
+    width: 100%;
+    
+
+    background-color: #90a492;
 }
 
 .p_footer {
-    float: left;
     margin: 20px;
+
+    text-decoration: none;
 }
 
 .logo_rss {
-    float: right;
     margin: 20px;
+    width: 10%;
+    float: right;
 }
