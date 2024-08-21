@@ -10,9 +10,32 @@ html, body {
     width: 100%;
 
     color: #ffffff;
-    text-decoration: none;
 
     background-color: #90a492;
+}
+
+.header_ul {
+    text-decoration: none;
+    
+    list-style-type: none;
+}
+
+.avatar {
+    display: inline-block;
+
+    margin: 10px;
+
+    width: 200px;
+    height: auto;
+    border-radius: 100px;
+}
+
+.contacts_ul {
+    list-style-type: circle;
+}
+
+.skills_ul {
+    list-style-type: circle
 }
 
 .footer {

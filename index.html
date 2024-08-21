@@ -9,7 +9,7 @@
 </head>
 <header>
     <nav class="nav">
-        <ul>
+        <ul class="header_ul">
             <li><a href="#contacts">Contacts</a></li>
             <li><a href="#about">About me</a></li>
             <li><a href="#skills">Skills</a></li>
@@ -22,14 +22,14 @@
 
 </header>
 <body>
-    <img rsc="./assets/pngimg.com - pusheen_PNG45.png" alt="avatar">
+    <img src="https://pusheen.com/wp-content/uploads/2019/08/Business.jpg" alt="avatar" class="avatar"> 
     <main>
         <section id="contacts">
             <h2>Contacts</h2>
-            <ul>
+            <ul class="contacts_ul">
                 <li><b>Location:</b> Brest, Belarus</li>
                 <li><b>Phone:</b> +375(25) 633 91 84</li>
-                <li><b>E-mail:</b> annromanouskaya@gmail.com</li>
+                <li><b>E-mail:</b> <a href="mailto:annromanouskaya@gmail.com">annromanouskaya@gmail.com</a></li>
                 <li><b>Telegram:</b><a href="https://t.me/Ann_Romanovskaya"> Ann_Romanovskaya</a></li>
                 <li><b>GitHub:</b><a href="https://github.com/Is-tukan"> Is-tukan</a></li>
                 <li><b>LinkedIn:</b><a href="https://www.linkedin.com/in/anna-romanouskaya-a55460320/"> Anna Romanouskaya</a></li>
@@ -42,7 +42,7 @@
         </section>
         <section id="skills">
             <h2>Skills</h2>
-            <ul>
+            <ul class="skills_ul">
                 <li>JavaScript, HTML, CSS basics</li>
                 <li>Version control: Git (remote service GitHub)</li>
                 <li>IDE: Visual Studio Code</li>
@@ -55,14 +55,14 @@
             <pre>
 Description: funny script showing that your love is true
                 <code>
-"&lt;!DOCTYPE html&gt;
- &lt;script&gt;
+&lt;!DOCTYPE html&gt;
+&lt;script&gt;
 
 let FirstName = prompt("What is your name?", 'Your name');
 alert (`Hello, ${FirstName}!`);
 let SecondName = prompt('What is your boyfriend/girlfriend name?', 'His/her name');
 let result = confirm(`${FirstName} do you love ${SecondName}?`);
-alert ( result );"
+alert ( result );
                 </code>
             </pre>
         </section>
@@ -76,9 +76,20 @@ alert ( result );"
         </section>
         <section id="education">
             <h2>Education</h2>
+            <ol>
+                <li><a href="https://www.bsmu.by">Belarusian State Medical University</a></li>
+                <li><a href="https://eart.by/course/kursyi-zvukorezhissera-v-minske/">European Academy of Arts "Sound Engineering. Basic Level"</a></li>
+                <li><a href="https://ipk.bsmu.by">Institute for Advanced Training and Retraining of Healthcare Personnel of the Belarusian State Medical University "Sport's medicine doctor"</a></li>
+                <li><a href="https://learn.javascript.ru">Javascript manual</a> in progress...</li>
+                <li><a href="https://rs.school/courses/javascript-preschool-ru">JavaScript / Front-end Course. Pre-school</a> in progress...</li>
+                <li><a href="https://code-basics.com/languages/css">Online Course: Lessons & Execises CSS</a></li>
+                <li><a href="https://code-basics.com/languages/html">HTML: Perfect for Beginners</a></li>
+            </ol>
         </section>
         <section id="english">
             <h2>English level</h2>
+            <p><img src=./assets/1631348364654.jfif alt="English certificate logo" width="55" height="55"><a href="https://cert.efset.org/MCEUFh"> Official certificate EF SET 59/100 (B2 Upper Intermediate)</a></p>
+            <p><b>Other languages:</b> Russian (native language), Belarusian</p>
         </section>
     </main>
 </body>
