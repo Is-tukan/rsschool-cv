@@ -46,6 +46,9 @@ header {
         text-decoration: none;
         padding: 20px;
     }
+    a:hover {
+        color: #e4e1bc;
+    }
 }
 
 .avatar {
@@ -68,10 +71,35 @@ h1 {
     text-transform: uppercase;
 }
 
+h2 {
+    color: #97a698;
+    font-size: 20px;
+    font-weight: 400;
+    letter-spacing: 5px;
+    line-height: 1.5;
+    word-spacing: 3px;
+    text-transform: uppercase;
+}
 .main {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+
+    a:visited {
+        color: #97a698;
+        text-decoration: none;
+    }
+    a:active {
+        color: #97a698;
+        text-decoration: none;
+    }
+    a {
+        color: #97a698;
+        text-decoration: none;
+    }
+    a:hover {
+        color: #4d2323;
+    }
 }
 
 #contacts {
@@ -138,7 +166,7 @@ h1 {
 }
 
 .skills_ul {
-    list-style-type: circle
+    list-style-type: circle;
 }
 
 .lang_ul {
