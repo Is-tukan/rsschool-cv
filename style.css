@@ -1,9 +1,14 @@
-html, body {
+html {
+    color: #4d2323;
     font-family: 'Roboto', sans-serif;
     font-size: 18px;
     font-weight: 400;
     line-height: 1.5;
     }
+
+header {
+    background-color: #97a698;
+}
 
 .nav {
     width: 100%;
@@ -12,9 +17,7 @@ html, body {
     color: #ffffff;
     font-size: 20px;
     font-weight: 300;
-    line-height: 50px;
-
-    background-color: #97a698;
+    line-height: 50px;  
 }
 
 .header_ul {
@@ -41,19 +44,28 @@ html, body {
     a {
         color: #ffffff;
         text-decoration: none;
-        padding: 15px;
+        padding: 20px;
     }
 }
 
 .avatar {
     display: inline-block;
-
     margin: 10px;
-
     width: 200px;
     height: auto;
+
     border-radius: 100px;
     box-shadow: 0px 0px 8px #b6b4a2;
+}
+
+h1 {
+    color: #4d2323;
+    font-size: 32px;
+    font-weight: 300;
+    letter-spacing: 10px;
+    line-height: 50px;
+    word-spacing: 3px;
+    text-transform: uppercase;
 }
 
 .main {
@@ -63,14 +75,62 @@ html, body {
 }
 
 #contacts {
-    width: 45%;
-    padding: 10px 30px;
-    margin: 10px;
+    width: 43%;
+    padding: 10px 10px;
+    margin: 10px 20px 0px 25px;
+
+    border-bottom:#4d2323 solid 1px;
 }
 #about {
     width:45%;
-    padding: 10px 30px;
-    margin: 10px;
+    padding: 10px 10px;
+    margin: 10px 20px 0px 5px;
+
+    border-bottom:#4d2323 solid 1px;
+}
+
+#skills{
+    width:43%;
+    padding: 10px 10px;
+    margin: 10px 20px 0px 25px;
+
+    border-bottom:#4d2323 solid 1px;
+}
+
+#code{
+    width:45%;
+    padding: 10px 10px;
+    margin: 10px 20px 0px 5px;
+
+    border-bottom:#4d2323 solid 1px;
+}
+
+#experience{
+    width:43%;
+    padding: 10px 10px;
+    margin: 10px 20px 0px 25px;
+
+    border-bottom:#4d2323 solid 1px;
+}
+
+#education{
+    width:45%;
+    padding: 10px 10px;
+    margin: 10px 20px 0px 5px;
+
+    border-bottom:#4d2323 solid 1px;
+}
+
+#languages{
+    width:43%;
+    padding: 10px 10px;
+    margin: 10px 20px 0px 25px;
+}
+
+#other_lang {
+    width:45%;
+    padding: 10px 10px;
+    margin: 75px 20px 0px 5px;
 }
 
 .contacts_ul {
@@ -81,12 +141,15 @@ html, body {
     list-style-type: circle
 }
 
+.lang_ul {
+    list-style-type: circle
+}
+
 .footer {
     display: inline-block;
     vertical-align: bottom;
     width: 100%;
     
-
     background-color: #97a698;
 }
 
