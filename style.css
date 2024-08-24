@@ -4,6 +4,10 @@ html {
     font-size: 18px;
     font-weight: 400;
     line-height: 1.5;
+
+    a {
+        cursor: pointer;
+    }
     }
 
 header {
@@ -27,6 +31,7 @@ header {
     justify-content: flex-end;
     align-items: center;
     height:inherit;
+    margin: 0px 43px;
 
     text-decoration: none;
     color: #ffffff;
@@ -51,8 +56,19 @@ header {
     }
 }
 
+.title {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    margin: 12px 50px;
+    padding-bottom: 12px;
+
+    border-bottom: #d7d1c9 12px solid;
+}
+
 .avatar {
-    display: inline-block;
     margin: 10px;
     width: 200px;
     height: auto;
@@ -104,46 +120,56 @@ h2 {
 
 #contacts {
     width: 43%;
-    padding: 10px 10px;
-    margin: 10px 20px 0px 25px;
+    padding: 10px 15px 20px;
+    margin: 0px 20px 0px 50px;
 
     border-bottom:#4d2323 solid 1px;
 }
 #about {
-    width:45%;
-    padding: 10px 10px;
-    margin: 10px 20px 0px 5px;
+    width:46%;
+    padding: 10px 15px 20px;
+    margin: 0x 20px 0px 5px;
 
     border-bottom:#4d2323 solid 1px;
 }
 
 #skills{
     width:43%;
-    padding: 10px 10px;
-    margin: 10px 20px 0px 25px;
+    padding: 10px 15px;
+    margin: 10px 20px 0px 50px;
 
     border-bottom:#4d2323 solid 1px;
 }
 
-#code{
-    width:45%;
-    padding: 10px 10px;
+#code{ 
+    width:47%;
     margin: 10px 20px 0px 5px;
+    overflow: auto;
 
     border-bottom:#4d2323 solid 1px;
+
+    h2 {
+        position: absolute;
+
+        padding: 10px 15px;
+    }
+
+    pre {
+        padding: 55px 15px 0px;
+    }
 }
 
 #experience{
     width:43%;
-    padding: 10px 10px;
-    margin: 10px 20px 0px 25px;
+    padding: 10px 15px;
+    margin: 10px 20px 0px 50px;
 
     border-bottom:#4d2323 solid 1px;
 }
 
 #education{
     width:45%;
-    padding: 10px 10px;
+    padding: 10px 15px 20px;
     margin: 10px 20px 0px 5px;
 
     border-bottom:#4d2323 solid 1px;
@@ -151,14 +177,14 @@ h2 {
 
 #languages{
     width:43%;
-    padding: 10px 10px;
-    margin: 10px 20px 0px 25px;
+    padding: 10px 15px;
+    margin: 10px 20px 0px 50px;
 }
 
 #other_lang {
     width:45%;
-    padding: 10px 10px;
-    margin: 75px 20px 0px 5px;
+    padding: 10px 15px;
+    margin: 56px 20px 0px 5px;
 }
 
 .contacts_ul {
@@ -169,23 +195,37 @@ h2 {
     list-style-type: circle;
 }
 
+#languages pre {
+    display: flex;
+    align-items: center;
+
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+}
+
 .lang_ul {
-    list-style-type: circle
+    list-style-type: circle;
 }
 
 .footer {
-    display: inline-block;
-    vertical-align: bottom;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
     width: 100%;
+    height: 12vh;
     
     background-color: #97a698;
 }
 
 .p_footer {
-    margin: 20px;
+    margin: 20px 50px;
 
     text-decoration: none;
     color: #ffffff;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 50px;
     
     a:visited {
         color:#ffffff;
@@ -199,10 +239,12 @@ h2 {
         color: #ffffff;
         text-decoration: none;
     }
+    a:hover {
+        color: #e4e1bc;
+    }
 }
 
 .logo_rss {
-    margin: 20px;
-    width: 10%;
-    float: right;
+    margin: 0px 0px;
+    width: 75%;
 }
