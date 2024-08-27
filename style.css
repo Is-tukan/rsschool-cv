@@ -38,6 +38,11 @@ header {
     
     list-style-type: none;
 
+    a {
+        color: #ffffff;
+        text-decoration: none;
+        padding: 20px;
+    }
     a:visited {
         color:#ffffff;
         text-decoration: none;
@@ -46,13 +51,9 @@ header {
         color: #ffffff;
         text-decoration: none;
     }
-    a {
-        color: #ffffff;
-        text-decoration: none;
-        padding: 20px;
-    }
     a:hover {
         color: #e4e1bc;
+        transition: 0.3s;
     }
 }
 
@@ -75,6 +76,12 @@ header {
 
     border-radius: 100px;
     box-shadow: 0px 0px 8px #b6b4a2;
+}
+
+.avatar:hover {
+    filter: brightness(0.95) grayscale(0.1);
+    box-shadow: 0px 0px 7px #b6ae99;
+    transition: 0.3s;
 }
 
 h1 {
@@ -101,6 +108,10 @@ h2 {
     flex-direction: row;
     flex-wrap: wrap;
 
+    a {
+        color: #97a698;
+        text-decoration: none;
+    }
     a:visited {
         color: #97a698;
         text-decoration: none;
@@ -109,12 +120,9 @@ h2 {
         color: #97a698;
         text-decoration: none;
     }
-    a {
-        color: #97a698;
-        text-decoration: none;
-    }
     a:hover {
         color: #4d2323;
+        transition: 0.1s;
     }
 }
 
@@ -227,6 +235,10 @@ h2 {
     font-weight: 300;
     line-height: 50px;
     
+    a {
+        color: #ffffff;
+        text-decoration: none;
+    }
     a:visited {
         color:#ffffff;
         text-decoration: none;
@@ -235,12 +247,9 @@ h2 {
         color: #ffffff;
         text-decoration: none;
     }
-    a {
-        color: #ffffff;
-        text-decoration: none;
-    }
     a:hover {
         color: #e4e1bc;
+        transition: 0.3s;
     }
 }
 
