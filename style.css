@@ -5,10 +5,43 @@ html {
     font-weight: 400;
     line-height: 1.5;
 
+    scroll-behavior: smooth;
+
     a {
         cursor: pointer;
     }
+}
+
+@media (max-width: 768px) {
+    #contacts {
+      width: 100%;
     }
+    #about {
+      width: 100%;
+    }
+    #skills {
+      width: 100%;
+    }
+    #code {
+      width: 100%;
+    }
+    #experience {
+      width: 100%;
+    }
+    #education {
+      width: 100%;
+    }
+    #languages {
+      width: 100%;
+    }
+    #other_lang {
+      width: 100%;
+    }
+  }
+
+body {
+    margin: 0px;
+}
 
 header {
     background-color: #97a698;
@@ -39,9 +72,12 @@ header {
     list-style-type: none;
 
     a {
+        padding: 0px 20px;
+
         color: #ffffff;
         text-decoration: none;
-        padding: 20px;
+
+        transition: 0.3s;
     }
     a:visited {
         color:#ffffff;
@@ -53,7 +89,6 @@ header {
     }
     a:hover {
         color: #e4e1bc;
-        transition: 0.3s;
     }
 }
 
@@ -76,12 +111,13 @@ header {
 
     border-radius: 100px;
     box-shadow: 0px 0px 8px #b6b4a2;
+
+    transition: 0.3s;
 }
 
 .avatar:hover {
     filter: brightness(0.95) grayscale(0.1);
     box-shadow: 0px 0px 7px #b6ae99;
-    transition: 0.3s;
 }
 
 h1 {
@@ -111,6 +147,8 @@ h2 {
     a {
         color: #97a698;
         text-decoration: none;
+
+        transition: 0.1s;
     }
     a:visited {
         color: #97a698;
@@ -122,7 +160,6 @@ h2 {
     }
     a:hover {
         color: #4d2323;
-        transition: 0.1s;
     }
 }
 
@@ -133,6 +170,7 @@ h2 {
 
     border-bottom:#4d2323 solid 1px;
 }
+
 #about {
     width:46%;
     padding: 10px 15px 20px;
@@ -196,12 +234,40 @@ h2 {
 }
 
 .contacts_ul {
-    list-style-type: circle;
+    position: relative;
+    padding-left: 30px;
+
+    list-style-type: none;
+}
+
+.contacts_item::before {
+    content: "";
+    position: absolute;
+    left: 0px;
+    margin-top: 8px;
+    width: 10px;
+    height: 10px;
+    border: 1px solid #97a698;
+    border-radius: 50%;
 }
 
 .skills_ul {
-    list-style-type: circle;
+    position: relative;
+    padding-left: 30px;
+
+    list-style-type: none;
 }
+
+.skills_item::before {
+    content: "";
+    position: absolute;
+    left: 0px;
+    margin-top: 8px;
+    width: 10px;
+    height: 10px;
+    border: 1px solid #97a698;
+    border-radius: 50%;
+  }
 
 #languages pre {
     display: flex;
@@ -238,6 +304,8 @@ h2 {
     a {
         color: #ffffff;
         text-decoration: none;
+
+        transition: 0.3s;
     }
     a:visited {
         color:#ffffff;
@@ -249,11 +317,10 @@ h2 {
     }
     a:hover {
         color: #e4e1bc;
-        transition: 0.3s;
     }
 }
 
 .logo_rss {
     margin: 0px 0px;
-    width: 75%;
+    width: 70%;
 }
