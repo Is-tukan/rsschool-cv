@@ -59,7 +59,7 @@ html {
         .footer {
             height: auto;
         }
-      }
+    }
 }
 
 body {
@@ -167,6 +167,8 @@ h2 {
     flex-direction: row;
     flex-wrap: wrap;
 
+    text-wrap: wrap;
+
     a {
         color: #97a698;
         text-decoration: none;
@@ -195,9 +197,9 @@ h2 {
 }
 
 #about {
-    width:46%;
+    width:45%;
     padding: 10px 15px 20px;
-    margin: 0x 20px 0px 5px;
+    margin: 0px 20px 0px 5px;
 
     border-bottom:#4d2323 solid 1px;
 }
