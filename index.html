@@ -3,59 +3,107 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/rsschool-cv/style.css">
-    <link rel="icon" href="./assets/favicon.jfif">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="icon" href="./assets/favicon.ico">
     <title>CV Hanna Ramanouskaya</title>
 </head>
+<body>
 <header>
     <nav class="nav">
-        <ul>
+        <ul class="header_ul">
             <li><a href="#contacts">Contacts</a></li>
             <li><a href="#about">About me</a></li>
             <li><a href="#skills">Skills</a></li>
             <li><a href="#code">Code</a></li>
             <li><a href="#experience">Experience</a></li>
             <li><a href="#education">Education</a></li>
-            <li><a href="#english">English</a></li>
+            <li><a href="#languages">Languages</a></li>
         </ul>
     </nav>    
-
 </header>
-<main>
-    <section id="contacts">
-        <h2>Contacts</h2>
-        <ul>
-            <li><b>Location:</b> Brest, Belarus</li>
-            <li><b>Phone:</b> +375(25) 633 91 84</li>
-            <li><b>E-mail:</b> annromanouskaya@gmail.com</li>
-            <li><b>Telegram:</b><a href="https://t.me/Ann_Romanovskaya"> Ann_Romanovskaya</a></li>
-            <li><b>GitHub:</b><a href="https://github.com/Is-tukan"> Is-tukan</a></li>
-            <li><b>LinkedIn:</b><a href="https://www.linkedin.com/in/anna-romanouskaya-a55460320/"> Anna Romanouskaya</a></li>
-            <li><b>Discord:</b> nickname: Ann (@Is-tukan); annistukan_54472</li>
-        </ul>
-    </section>
-    <section id="about">
-        <h2>About me</h2>
-        <div>I have been working as a doctor for four years now. I completed retraining as a sport's medicine doctor. During my study in university I took a course in sound engineering, that's my hobby passion. I also worked as a volunteer at a half marathon. Also I worked as a doping control officer at the CIS Games during my job. Now I am trying myself in front-end development and I like it, coding is my favorite part. I am a diligent and goal-oriented student, capable of learning and open to new things. My goal is to achieve a sufficient level of knowledge to change my jobs and live according to the principle of work-life balance.</div>
-    </section>
-    <section id="skills">
-        <h2>Skills</h2>
-    </section>
-    <section id="code">
-        <h2>Code example</h2>
-    </section>
-    <section id="experience">
-        <h2>Experience</h2>
-    </section>
-    <section id="education">
-        <h2>Education</h2>
-    </section>
-    <section id="english">
-        <h2>English level</h2>
-    </section>
-</main>
-<footer>
-    <p class="p_footer">&copy;<a href="https://github.com/Is-tukan"> Is-tukan</a> 2024</p>
-    <img class="logo_rss" src="https://raw.githubusercontent.com/rolling-scopes-school/tasks/4427353c59ed29f72ffc82480ae3913862a19ddd/tasks/cv/rs-school-logo.svg" alt="logo rsschool">
-</footer>
+    <div class="title">
+    <img src="https://pusheen.com/wp-content/uploads/2019/08/Business.jpg" alt="avatar" class="avatar"> 
+    <h1>Hanna Ramanouskaya</h1>
+    </div>
+    <main class="main">
+        <section id="contacts">
+            <h2>Contacts</h2>
+            <ul class="contacts_ul">
+                <li class="contacts_item"><b>Location:</b> Brest, Belarus</li>
+                <li class="contacts_item"><b>Phone:</b> +375(25) 633 91 84</li>
+                <li class="contacts_item"><b>E-mail:</b> <a href="mailto:annromanouskaya@gmail.com">annromanouskaya@gmail.com</a></li>
+                <li class="contacts_item"><b>Telegram:</b><a href="https://t.me/Ann_Romanovskaya"> Ann_Romanovskaya</a></li>
+                <li class="contacts_item"><b>GitHub:</b><a href="https://github.com/Is-tukan"> Is-tukan</a></li>
+                <li class="contacts_item"><b>LinkedIn:</b><a href="https://www.linkedin.com/in/anna-romanouskaya-a55460320/"> Anna Romanouskaya</a></li>
+                <li class="contacts_item"><b>Discord:</b> nickname: Ann (@Is-tukan); annistukan_54472</li>
+            </ul>
+        </section>
+        <section id="about">
+            <h2>About me</h2>
+            <div>I have been working as a doctor for four years now. I completed retraining as a sport's medicine doctor. During my study in university I took a course in sound engineering, that's my hobby passion. I also worked as a volunteer at a half marathon. Also I worked as a doping control officer at the CIS Games during my job. Now I am trying myself in front-end development and I like it, coding is my favorite part. I am a diligent and goal-oriented student, capable of learning and open to new things. My goal is to achieve a sufficient level of knowledge to change my jobs and live according to the principle of work-life balance.</div>
+        </section>
+        <section id="skills">
+            <h2>Skills</h2>
+            <ul class="skills_ul">
+                <li class="skills_item">JavaScript, HTML, CSS basics</li>
+                <li class="skills_item">Version control: Git (remote service GitHub)</li>
+                <li class="skills_item">IDE: Visual Studio Code</li>
+                <li class="skills_item">Markdown</li>
+                <li class="skills_item">Confident PC user</li>
+            </ul>
+        </section>
+        <section id="code">
+            <h2>Code example</h2>
+            <pre>
+Description: funny script showing that your love is true
+                <code>
+&lt;!DOCTYPE html&gt;
+&lt;script&gt;
+
+let FirstName = prompt("What is your name?", 'Your name');
+alert (`Hello, ${FirstName}!`);
+let SecondName = prompt('What is your boyfriend/girlfriend name?', 'His/her name');
+let result = confirm(`${FirstName} do you love ${SecondName}?`);
+alert ( result );
+                </code>
+            </pre>
+        </section>
+        <section id="experience">
+            <h2>Experience</h2>
+            <p>In progress on <a href="https://github.com/Is-tukan?tab=repositories" title="GitHub Repositories">GitHub</a></p>
+            <ol>
+                <li><a href="https://Is-tukan.github.io/rsschool-cv/cv">CV page Markdown;</a><a href="https://github.com/Is-tukan/rsschool-cv/tree/gh-pages"> Repository</a></li>
+                <li><a href="https://Is-tukan.github.io/rsschool-cv/">CV page HTML, CSS;</a><a href="https://github.com/Is-tukan/rsschool-cv/tree/rsschool-cv-html"> Repository</a></li>
+            </ol>
+        </section>
+        <section id="education">
+            <h2>Education</h2>
+            <ol>
+                <li><a href="https://www.bsmu.by">Belarusian State Medical University</a></li>
+                <li><a href="https://eart.by/course/kursyi-zvukorezhissera-v-minske/">European Academy of Arts "Sound Engineering. Basic Level"</a></li>
+                <li><a href="https://ipk.bsmu.by">Institute for Advanced Training and Retraining of Healthcare Personnel of the Belarusian State Medical University "Sport's medicine doctor"</a></li>
+                <li><a href="https://learn.javascript.ru">Javascript manual</a> in progress...</li>
+                <li><a href="https://rs.school/courses/javascript-preschool-ru">JavaScript / Front-end Course. Pre-school</a> in progress...</li>
+                <li><a href="https://code-basics.com/languages/css">Online Course: Lessons & Execises CSS</a></li>
+                <li><a href="https://code-basics.com/languages/html">HTML: Perfect for Beginners</a></li>
+            </ol>
+        </section>
+        <section id="languages">
+            <h2>Languages:</h2>
+            <h3>English level</h3>
+            <pre><img src=./assets/1631348364654.jfif alt="English certificate logo" width="55" height="55"><a href="https://cert.efset.org/MCEUFh">  Official certificate EF SET 59/100 (B2 Upper Intermediate)</a></pre>
+        </section>
+        <section id="other_lang">
+            <h3>Other languages:</h3>
+            <ul class="lang_ul">
+                <li>Russian (native language)</li>
+                <li>Belarusian</li>
+            </ul>
+        </section>
+    </main>
+    <footer class="footer">
+        <p class="p_footer">&copy;<a href="https://github.com/Is-tukan"> Is-tukan</a> 2024 </p>
+        <span><a href="https://rs.school/courses/javascript-ru"><img class="logo_rss" src="https://raw.githubusercontent.com/rolling-scopes-school/tasks/4427353c59ed29f72ffc82480ae3913862a19ddd/tasks/cv/rs-school-logo.svg" alt="logo rsschool"></a></span>   
+    </footer>
+</body>
 </html>
