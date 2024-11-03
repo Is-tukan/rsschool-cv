@@ -45,7 +45,7 @@ In progress on [GitHub](https://github.com/Is-tukan?tab=repositories "GitHub Rep
 3. [Institute for Advanced Training and Retraining of Healthcare Personnel of the Belarusian State Medical University "Sport's medicine doctor"](https://ipk.bsmu.by)
 4. [Javascript manual](https://learn.javascript.ru) in progress...
 5. [JavaScript / Front-end Course. Pre-school](https://rs.school/courses/javascript-preschool-ru) in progress...
-6. [Online Course: Lessonsы & Exercises CSS](https://code-basics.com/languages/css)
+6. [Online Course: Lessons & Exercises CSS](https://code-basics.com/languages/css)
 7. [HTML: Perfect for Beginners](https://code-basics.com/languages/html)
 
 ## *English level:*
