@@ -48,7 +48,7 @@ In progress on [GitHub](https://github.com/Is-tukan?tab=repositories "GitHub Rep
 1. [Belarusian State Medical University](https://www.bsmu.by)
 2. [European Academy of Arts "Sound Engineering. Basic Level"](https://eart.by/course/kursyi-zvukorezhissera-v-minske/)
 3. [Institute for Advanced Training and Retraining of Healthcare Personnel of the Belarusian State Medical University "Sport's medicine doctor"](https://ipk.bsmu.by)
-4. [Online Course: Lessons & Execises CSS](https://code-basics.com/languages/css)
+4. [Online Course: Lessons & Exercises CSS](https://code-basics.com/languages/css)
 5. [HTML: Perfect for Beginners](https://code-basics.com/languages/html)
 6. [JavaScript: Perfect for Beginners](https://code-basics.com/ru/languages/javascript)
 7. [Javascript manual](https://learn.javascript.ru) in progress...
